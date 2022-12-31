@@ -1,11 +1,10 @@
 # arxivの学問領域の指定
-subject: 'cat:cs.*'
+subject: 'cat:q-fin.*'
 
 # 検索キーワード
 keywords:
-    ai: 1
-    deep: 1
-    economics: 3
+    model : 5
+    Deep Learning: 3
 
 # 通知の閾値
-score_threshold: 0
+score_threshold: 1
