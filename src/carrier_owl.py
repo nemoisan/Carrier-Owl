@@ -185,10 +185,18 @@ def main():
     arxiv_query = f'({subject}) AND ' \
                   f'submittedDate:' \
                   f'[{day_before_yesterday_str}000000 TO {day_before_yesterday_str}235959]'
-    articles = arxiv.Search(query=arxiv_query,
-                           max_results=1000,
-                           sort_by='submittedDate',
-                           iterative=False)
+    #     articles = arxiv.Search(query=arxiv_query,
+    #                            max_results=1000,
+    #                            sort_by='submittedDate',
+    #                            iterative=False)
+    articles = arxiv.Search(
+      query: str = arxiv_query,
+      id_list: List[str] = [],
+      max_results: float = 1000,
+      sort_by: SortCriterion = submittedDate,
+      sort_order: SortOrder = SortOrder.Descending
+)
+
     results = search_keyword(articles, keywords, score_threshold)
 
     slack_id = os.getenv("SLACK_ID") or args.slack_id
