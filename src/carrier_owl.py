@@ -192,9 +192,7 @@ def main():
     articles = arxiv.Search(
         query = arxiv_query,
         id_list = [],
-        max_results = 1000,
-        sort_order = SortOrder.Descending
-    )
+        max_results = 1000)
 
     results = search_keyword(articles, keywords, score_threshold)
 
