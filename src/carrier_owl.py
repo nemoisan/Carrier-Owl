@@ -192,7 +192,7 @@ def main():
     articles = arxiv.Search(
       query = arxiv_query,
       id_list = [],
-      max_results: float = 1000,
+      max_results = 1000,
       sort_by = submittedDate,
       sort_order = SortOrder.Descending
 )
