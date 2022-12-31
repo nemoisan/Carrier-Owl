@@ -3,9 +3,9 @@ subject: 'cat:q-fin.*'
 
 # 検索キーワード
 keywords:
-    Deep: 1
-    The limitations: 1
-    Measuring: 3
+    ai: 1
+    deep: 1
+    economics: 3
 
 # 通知の閾値
 score_threshold: 0
