@@ -190,12 +190,11 @@ def main():
     #                            sort_by='submittedDate',
     #                            iterative=False)
     articles = arxiv.Search(
-      query = arxiv_query,
-      id_list = [],
-      max_results = 1000,
-      sort_by = submittedDate,
-      sort_order = SortOrder.Descending
-)
+        query = arxiv_query,
+        id_list = [],
+        max_results = 1000,
+        sort_order = SortOrder.Descending
+    )
 
     results = search_keyword(articles, keywords, score_threshold)
 
