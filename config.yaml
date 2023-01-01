@@ -1,11 +1,10 @@
 # arxivの学問領域の指定
-subject: 'cat:cs*'
+subject: 'cat:q-fin.* OR cat:cs.* OR cat:math.* OR cat:stat.*'
 
 # 検索キーワード
 keywords:
-    ai : 5
-    model : 5
-    Deep Learning: 3
-
+    pair : 5
+    pairs : 5
+    
 # 通知の閾値
 score_threshold: 0
