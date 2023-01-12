@@ -4,17 +4,21 @@ subject: 'q-fin.* OR stat.*'
 # 検索キーワード
 keywords:
     pairs trading: 5
+    pair trading: 5
     pairs: 4
     pair: 4
     arbitrage: 3
     factor: 3
     risk: 3
-    finance: 2
-    kalman: 4
-    time-series: 2
-    cointegration: 4
-    portfolio: 4
+    kalman: 3
     copula: 3
+    time-series: 3
+    cointegration: 3
+    portfolio: 3
+    finance: 2
+    sector: 2
+    cyclical: 2
+    non-cycical: 2
     HFT: 1
     
 # 通知の閾値
