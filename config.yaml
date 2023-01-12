@@ -14,6 +14,7 @@ keywords:
     time-series: 2
     cointegration: 4
     portfolio: 4
+    copula: 3
     HFT: 1
     
 # 通知の閾値
