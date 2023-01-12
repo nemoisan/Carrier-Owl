@@ -1,12 +1,12 @@
 # arxivの学問領域の指定
-subject: 'cat:q-fin.* OR cat:cs.* OR cat:math.* OR cat:stat.*'
+subject: 'cat:q-fin.*'
 
 # 検索キーワード
 keywords:
-    pair : 5
-    pairs : 4
+    pair : 1
+    pairs : 2
     deep : 3
-    trading : 3
+    trading : 4
     
 # 通知の閾値
 score_threshold: 0
