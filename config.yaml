@@ -1,5 +1,5 @@
 # arxivの学問領域の指定
-subject: 'q-fin.* OR stat.*'
+subject: 'q-fin.*'
 
 # 検索キーワード
 keywords:
